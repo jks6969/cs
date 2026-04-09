@@ -391,9 +391,9 @@
     position: fixed;
     bottom: 1rem; right: 1rem;
     width: 52px; height: 52px;
-    background: transparent;
+    background: transparent !important;
     border-radius: 50%;
-    box-shadow: none;
+    box-shadow: none !important;
     cursor: pointer;
     z-index: calc(var(--cc-z) - 2);
     font-size: 2.8rem;
@@ -802,3 +802,4 @@
         setTimeout(() => { if (!_consentModal) API.init(); }, 0);
     }
 })();
+
