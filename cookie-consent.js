@@ -391,16 +391,16 @@
     position: fixed;
     bottom: 1rem; right: 1rem;
     width: 52px; height: 52px;
-    background: var(--cc-bg);
+    background: transparent;
     border-radius: 50%;
-    box-shadow: 0 2px 10px rgba(0,0,0,.15);
+    box-shadow: none;
     cursor: pointer;
     z-index: calc(var(--cc-z) - 2);
-    font-size: 1.6rem;
-    transition: transform .2s, box-shadow .2s;
+    font-size: 2.8rem;
+    transition: transform .2s;
     user-select: none;
 }
-#cc-fab:hover { transform: scale(1.08); box-shadow: 0 4px 18px rgba(0,0,0,.2); }
+#cc-fab:hover { transform: scale(1.1); }
 #cc-fab.cc-show { display: flex; }
 
 /* ── Animations ── */
